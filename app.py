@@ -11,9 +11,9 @@ from langchain_groq import ChatGroq
 
 load_dotenv()
 
-st.secrets["LANGCHAIN_API_KEY"]
-st.secrets["GEMMINI_API_LEY"]
-st.secrets["GROQ_API_KEY"]
+LANGCHAIN_API_KEY=st.secrets["LANGCHAIN_API_KEY"]
+GEMMINI_API_LEY=st.secrets["GEMMINI_API_LEY"]
+GROQ_API_KEY=st.secrets["GROQ_API_KEY"]
 
 model = ChatGroq(model='Gemma2-9b-It')
 os.environ['LANGCHAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY')
