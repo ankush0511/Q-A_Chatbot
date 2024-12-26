@@ -1,9 +1,9 @@
 streamlit
 langchain
 langchain_groq
-langchain-core
+langchain_core
 ollama
 python-dotenv
-langchain-community
+langchain_community
 transformers
 
